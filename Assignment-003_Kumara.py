@@ -134,13 +134,13 @@
 
 #10.Write a Python function that checks whether a passed string is a palindrome or not.
 
-# def is_palindrome(input_string):
-#     # Normalize the string by removing spaces and converting to lowercase
-#     #normalized_string = input_string.replace(" ", "").lower()
-#     # Check if the string is equal to its reverse
-#     return input_string == input_string[::-1]
-#
-# # Example usage:
-# test_string = "madam"
-# result = is_palindrome(test_string)
-# print(f"Is the string a palindrome? {result}")
+def is_palindrome(input_string):
+    # Normalize the string by removing spaces and converting to lowercase
+    #normalized_string = input_string.replace(" ", "").lower()
+    # Check if the string is equal to its reverse
+    return input_string == input_string[::-1]
+
+# Example usage:
+test_string = "madam"
+result = is_palindrome(test_string)
+print(f"Is the string a palindrome? {result}")
